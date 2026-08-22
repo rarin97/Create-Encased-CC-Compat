@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/encased_chain_cogwheel/single",
+  "textures": {
+    "1": "create:block/brass_gearbox",
+    "2": "create:block/brass_gearbox",
+    "particle": "create:block/brass_casing",
+    "side": "create_connected_encased:block/encased_chain_cogwheel/brass"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "create_connected:block/parallel_gearbox/block_y",
+  "textures": {
+    "0": "create:block/refined_radiance_casing",
+    "1": "create_connected_encased:block/gearbox/refined_radiance",
+    "particle": "create:block/refined_radiance_casing"
+  }
+}

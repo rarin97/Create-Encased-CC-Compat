@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:railway_gearbox"
+    },
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "item": "create:large_cogwheel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:railway_six_way_gearbox"
+  }
+}

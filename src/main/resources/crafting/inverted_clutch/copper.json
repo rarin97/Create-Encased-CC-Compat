@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:copper_clutch"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:copper_inverted_clutch"
+  }
+}

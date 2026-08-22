@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/brake/item",
+  "textures": {
+    "0": "create_connected_encased:block/brake_off/copper",
+    "1": "createcasing:block/gearbox/copper",
+    "4": "create:block/funnel/copper_funnel_frame",
+    "particle": "create_connected_encased:block/brake_off/copper"
+  }
+}

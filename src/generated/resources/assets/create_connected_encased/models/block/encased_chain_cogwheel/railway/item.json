@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/encased_chain_cogwheel/item",
+  "textures": {
+    "1": "createcasing:block/gearbox/railway",
+    "2": "createcasing:block/gearbox/railway",
+    "particle": "create:block/railway_casing",
+    "side": "create_connected_encased:block/encased_chain_cogwheel/railway"
+  }
+}

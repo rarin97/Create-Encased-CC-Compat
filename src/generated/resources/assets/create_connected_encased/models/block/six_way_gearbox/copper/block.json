@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/six_way_gearbox/block",
+  "textures": {
+    "0": "createcasing:block/gearbox/copper",
+    "1": "create_connected_encased:block/gearbox/copper",
+    "2": "create:block/funnel/copper_funnel_frame",
+    "particle": "create:block/copper_casing"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/freewheel_clutch/item",
+  "textures": {
+    "0": "create_connected_encased:block/freewheel_clutch_off/weathered_iron",
+    "1": "createcasing:block/gearbox/weathered_iron",
+    "4": "createcasing:block/funnel_frame/weathered_iron",
+    "particle": "create_connected_encased:block/freewheel_clutch_off/weathered_iron"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/brake/block",
+  "textures": {
+    "0": "create_connected_encased:block/brake_off/creative",
+    "1": "createcasing:block/gearbox/creative",
+    "2": "createcasing:block/funnel_frame/creative",
+    "particle": "create_connected_encased:block/brake_off/creative"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/inverted_gearshift/block",
+  "textures": {
+    "0": "create_connected_encased:block/inverted_gearshift_off/railway",
+    "1": "createcasing:block/gearbox/railway",
+    "2": "createcasing:block/funnel_frame/railway",
+    "particle": "create_connected_encased:block/inverted_gearshift_off/railway"
+  }
+}

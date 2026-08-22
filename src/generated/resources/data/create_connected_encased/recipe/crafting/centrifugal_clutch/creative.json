@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:creative_casing"
+    },
+    {
+      "item": "create:shaft"
+    },
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "create:speedometer"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:creative_centrifugal_clutch"
+  }
+}

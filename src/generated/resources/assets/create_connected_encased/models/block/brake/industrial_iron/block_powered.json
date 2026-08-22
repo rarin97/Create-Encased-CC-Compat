@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/brake/block_powered",
+  "textures": {
+    "0": "create_connected_encased:block/brake_on/industrial_iron",
+    "1": "createcasing:block/gearbox/industrial_iron",
+    "2": "createcasing:block/funnel_frame/industrial_iron",
+    "particle": "create_connected_encased:block/brake_on/industrial_iron"
+  }
+}

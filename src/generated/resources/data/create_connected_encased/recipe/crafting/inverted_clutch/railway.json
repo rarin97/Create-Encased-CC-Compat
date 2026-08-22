@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:railway_clutch"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:railway_inverted_clutch"
+  }
+}

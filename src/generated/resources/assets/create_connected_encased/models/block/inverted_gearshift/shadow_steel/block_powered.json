@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/inverted_gearshift/block_powered",
+  "textures": {
+    "0": "create_connected_encased:block/inverted_gearshift_on/shadow_steel",
+    "1": "createcasing:block/gearbox/shadow_steel",
+    "2": "createcasing:block/funnel_frame/shadow_steel",
+    "particle": "create_connected_encased:block/inverted_gearshift_on/shadow_steel"
+  }
+}

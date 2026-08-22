@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/six_way_gearbox/block",
+  "textures": {
+    "0": "createcasing:block/gearbox/industrial_iron",
+    "1": "create_connected_encased:block/gearbox/industrial_iron",
+    "2": "createcasing:block/funnel_frame/industrial_iron",
+    "particle": "create:block/industrial_iron_block"
+  }
+}

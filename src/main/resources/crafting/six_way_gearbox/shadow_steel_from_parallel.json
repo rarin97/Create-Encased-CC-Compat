@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_connected_encased:shadow_steel_parallel_gearbox"
+    },
+    {
+      "item": "create:large_cogwheel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:shadow_steel_six_way_gearbox"
+  }
+}

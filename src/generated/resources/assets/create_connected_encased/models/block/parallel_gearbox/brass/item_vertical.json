@@ -1,0 +1,8 @@
+{
+  "parent": "create_connected:block/parallel_gearbox/item_vertical",
+  "textures": {
+    "gearbox": "create_connected_encased:block/gearbox/brass",
+    "gearbox_top": "create:block/brass_casing",
+    "particle": "create:block/brass_casing"
+  }
+}

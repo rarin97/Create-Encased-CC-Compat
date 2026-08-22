@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_connected_encased:weathered_iron_vertical_parallel_gearbox"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:weathered_iron_parallel_gearbox"
+  }
+}

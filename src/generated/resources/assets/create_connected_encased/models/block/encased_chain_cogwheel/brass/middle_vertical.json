@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/encased_chain_cogwheel/middle_vertical",
+  "textures": {
+    "1": "createcasing:block/encased_chain_drive_middle/brass",
+    "2": "create:block/brass_gearbox",
+    "particle": "create:block/brass_casing",
+    "side": "create_connected_encased:block/encased_chain_cogwheel/brass"
+  }
+}

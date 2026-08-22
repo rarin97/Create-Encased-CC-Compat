@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/overstress_clutch/block_powered",
+  "textures": {
+    "0": "create_connected_encased:block/overstress_clutch_off_powered/shadow_steel",
+    "1": "createcasing:block/gearbox/shadow_steel",
+    "2": "createcasing:block/funnel_frame/shadow_steel",
+    "particle": "create_connected_encased:block/overstress_clutch_off_powered/shadow_steel"
+  }
+}

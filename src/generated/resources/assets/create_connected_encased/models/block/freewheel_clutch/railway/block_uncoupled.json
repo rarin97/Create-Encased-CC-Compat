@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/freewheel_clutch/block_uncoupled",
+  "textures": {
+    "0": "create_connected_encased:block/freewheel_clutch_on/railway",
+    "1": "createcasing:block/gearbox/railway",
+    "2": "createcasing:block/funnel_frame/railway",
+    "particle": "create_connected_encased:block/freewheel_clutch_on/railway"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/encased_chain_cogwheel/single",
+  "textures": {
+    "1": "createcasing:block/gearbox/creative",
+    "2": "createcasing:block/gearbox/creative",
+    "particle": "create:block/creative_casing",
+    "side": "create_connected_encased:block/encased_chain_cogwheel/creative"
+  }
+}

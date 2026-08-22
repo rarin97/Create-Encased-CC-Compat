@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create:weathered_iron_block"
+    },
+    {
+      "item": "create:shaft"
+    },
+    {
+      "item": "create:iron_sheet"
+    },
+    {
+      "item": "create:electron_tube"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:weathered_iron_overstress_clutch"
+  }
+}

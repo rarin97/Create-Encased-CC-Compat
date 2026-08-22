@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/six_way_gearbox/item",
+  "textures": {
+    "0": "createcasing:block/gearbox/shadow_steel",
+    "1": "create_connected_encased:block/gearbox/shadow_steel",
+    "2": "createcasing:block/funnel_frame/shadow_steel",
+    "particle": "create:block/shadow_steel_casing"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/overstress_clutch/block_powered",
+  "textures": {
+    "0": "create_connected_encased:block/overstress_clutch_off_powered/brass",
+    "1": "create:block/brass_gearbox",
+    "2": "create:block/funnel/brass_funnel_frame",
+    "particle": "create_connected_encased:block/overstress_clutch_off_powered/brass"
+  }
+}

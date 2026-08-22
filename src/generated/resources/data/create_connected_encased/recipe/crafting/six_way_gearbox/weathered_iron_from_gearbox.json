@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:weathered_iron_gearbox"
+    },
+    {
+      "item": "create:large_cogwheel"
+    },
+    {
+      "item": "create:large_cogwheel"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:weathered_iron_six_way_gearbox"
+  }
+}

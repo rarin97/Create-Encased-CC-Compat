@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/centrifugal_clutch/item",
+  "textures": {
+    "0": "create_connected_encased:block/centrifugal_clutch_off/creative",
+    "1": "createcasing:block/gearbox/creative",
+    "4": "createcasing:block/funnel_frame/creative",
+    "particle": "create_connected_encased:block/freewheel_clutch_off/creative"
+  }
+}

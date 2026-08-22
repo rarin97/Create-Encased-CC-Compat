@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/brake/block_powered",
+  "textures": {
+    "0": "create_connected_encased:block/brake_on/shadow_steel",
+    "1": "createcasing:block/gearbox/shadow_steel",
+    "2": "createcasing:block/funnel_frame/shadow_steel",
+    "particle": "create_connected_encased:block/brake_on/shadow_steel"
+  }
+}

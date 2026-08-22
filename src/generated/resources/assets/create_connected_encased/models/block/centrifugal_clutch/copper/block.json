@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/centrifugal_clutch/block",
+  "textures": {
+    "0": "create_connected_encased:block/centrifugal_clutch_off/copper",
+    "1": "createcasing:block/gearbox/copper",
+    "2": "create:block/funnel/copper_funnel_frame",
+    "particle": "create_connected_encased:block/freewheel_clutch_off/copper"
+  }
+}

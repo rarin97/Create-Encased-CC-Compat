@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/freewheel_clutch/item",
+  "textures": {
+    "0": "create_connected_encased:block/freewheel_clutch_off/shadow_steel",
+    "1": "createcasing:block/gearbox/shadow_steel",
+    "4": "createcasing:block/funnel_frame/shadow_steel",
+    "particle": "create_connected_encased:block/freewheel_clutch_off/shadow_steel"
+  }
+}

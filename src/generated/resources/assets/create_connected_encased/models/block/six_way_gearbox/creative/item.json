@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/six_way_gearbox/item",
+  "textures": {
+    "0": "createcasing:block/gearbox/creative",
+    "1": "create_connected_encased:block/gearbox/creative",
+    "2": "createcasing:block/funnel_frame/creative",
+    "particle": "create:block/creative_casing"
+  }
+}

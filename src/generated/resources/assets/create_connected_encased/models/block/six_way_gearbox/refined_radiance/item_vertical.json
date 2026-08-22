@@ -1,0 +1,9 @@
+{
+  "parent": "create_connected:block/six_way_gearbox/item_vertical",
+  "textures": {
+    "0": "createcasing:block/gearbox/refined_radiance",
+    "1": "create_connected_encased:block/gearbox/refined_radiance",
+    "2": "createcasing:block/funnel_frame/refined_radiance",
+    "particle": "create:block/refined_radiance_casing"
+  }
+}

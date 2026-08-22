@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "createcasing:weathered_iron_clutch"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_connected_encased:weathered_iron_inverted_clutch"
+  }
+}
