@@ -9,13 +9,13 @@
     "ChainCogWheelBlockMixin",
     "CreateCasingCommandMixin",
     "FluidVesselItemMixin",
-    "FluidVesselRendererMixin",
     "OverstressClutchBlockEntityMixin",
     "RecaserItemMixin",
     "RotationPropagatorMixin",
     "SteamEngineBlockEntityMixin"
   ],
   "client": [
+    "FluidVesselRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1
