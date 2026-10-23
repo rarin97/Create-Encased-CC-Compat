@@ -3,6 +3,7 @@ package net.Rarin.create_connected_encased.sets.fluids;
 import com.google.common.collect.ImmutableList;
 import com.hlysine.create_connected.registries.CCBlocks;
 import com.simibubi.create.foundation.data.recipe.CommonMetal;
+import fr.iglee42.createcasing.registries.EncasedPartialModels;
 import fr.iglee42.createcasing.registries.EncasedSprites;
 import fr.iglee42.createcasing.registries.EncasedTags;
 
@@ -17,12 +18,14 @@ public class CFluidSets {
 
     public static final CFluidSet ANDESITE = register("andesite", options -> options
             .item(EncasedTags.EItemTags.ANDESITE_PLATES.tag)
-            .FluidBlocks(() -> EncasedSprites.ANDESITE_FLUID_TANK, () -> EncasedSprites.ANDESITE_FLUID_TANK_TOP, () -> EncasedSprites.ANDESITE_FLUID_TANK_INNER)
+            .FluidBlocks(() -> EncasedSprites.ANDESITE_FLUID_TANK, () -> EncasedSprites.ANDESITE_FLUID_TANK_TOP, () -> EncasedSprites.ANDESITE_FLUID_TANK_INNER,
+                    () -> EncasedPartialModels.ANDESITE_GAUGE, () -> EncasedPartialModels.ANDESITE_GAUGE_DIAL)
     );
 
     public static final CFluidSet BRASS = register("brass", options -> options
             .item(CommonMetal.BRASS.plates)
-            .FluidBlocks(() -> EncasedSprites.BRASS_FLUID_TANK, () -> EncasedSprites.BRASS_FLUID_TANK_TOP, () -> EncasedSprites.BRASS_FLUID_TANK_INNER)
+            .FluidBlocks(() -> EncasedSprites.BRASS_FLUID_TANK, () -> EncasedSprites.BRASS_FLUID_TANK_TOP, () -> EncasedSprites.BRASS_FLUID_TANK_INNER,
+                    () -> EncasedPartialModels.BRASS_GAUGE, () -> EncasedPartialModels.BRASS_GAUGE_DIAL)
     );
 
 
@@ -33,7 +36,8 @@ public class CFluidSets {
 
     public static final CFluidSet ZINC = register("zinc", options -> options
             .item(CommonMetal.ZINC.plates)
-            .FluidBlocks(() -> EncasedSprites.ZINC_FLUID_TANK, () -> EncasedSprites.ZINC_FLUID_TANK_TOP, () -> EncasedSprites.ZINC_FLUID_TANK_INNER)
+            .FluidBlocks(() -> EncasedSprites.ZINC_FLUID_TANK, () -> EncasedSprites.ZINC_FLUID_TANK_TOP, () -> EncasedSprites.ZINC_FLUID_TANK_INNER,
+                    () -> EncasedPartialModels.ZINC_GAUGE, () -> EncasedPartialModels.ZINC_GAUGE_DIAL)
     );
 
     public static CFluidSet register(String id, UnaryOperator<CFluidSet.Options> options) {

@@ -5,6 +5,7 @@ import com.hlysine.create_connected.content.fluidvessel.FluidVesselBlockEntity;
 import com.simibubi.create.foundation.block.connected.CTSpriteShiftEntry;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
 import com.tterrag.registrate.util.entry.BlockEntry;
+import dev.engine_room.flywheel.lib.model.baked.PartialModel;
 import net.Rarin.create_connected_encased.sets.SetBase;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -21,6 +22,8 @@ public class CFluidSet extends SetBase<CFluidSet, CFluidSet.Options> {
     private final Supplier<CTSpriteShiftEntry> tankSideCtSprite;
     private final Supplier<CTSpriteShiftEntry> tankTopCtSprite;
     private final Supplier<CTSpriteShiftEntry> tankInnerCtSprite;
+    private final Supplier<PartialModel> engineGaugeModel;
+    private final Supplier<PartialModel> engineGaugeDialModel;
     private @Nullable BlockEntry<? extends FluidVesselBlock> fluidVesselBlock;
     private @Nullable BlockEntityEntry<? extends FluidVesselBlockEntity> fluidVesselBlockEntity;
 
@@ -32,6 +35,9 @@ public class CFluidSet extends SetBase<CFluidSet, CFluidSet.Options> {
         this.tankSideCtSprite = options.tankSideCtSprite;
         this.tankTopCtSprite = options.tankTopCtSprite;
         this.tankInnerCtSprite = options.tankInnerCtSprite;
+
+        this.engineGaugeModel = options.engineGaugeModel;
+        this.engineGaugeDialModel = options.engineDialGaugeModel;
 
         fluidVessel = options.fluidVessel;
 
@@ -88,6 +94,14 @@ public class CFluidSet extends SetBase<CFluidSet, CFluidSet.Options> {
         return tankInnerCtSprite.get();
     }
 
+    public PartialModel getEngineGaugeModel() {
+        return engineGaugeModel.get();
+    }
+
+    public PartialModel getEngineGaugeDialModel() {
+        return engineGaugeDialModel.get();
+    }
+
 
     public boolean isInSet(Block block) {
         return block.equals(getFluidVessel());
@@ -101,21 +115,25 @@ public class CFluidSet extends SetBase<CFluidSet, CFluidSet.Options> {
         private Supplier<CTSpriteShiftEntry> tankSideCtSprite = () -> null;
         private Supplier<CTSpriteShiftEntry> tankTopCtSprite = () -> null;
         private Supplier<CTSpriteShiftEntry> tankInnerCtSprite = () -> null;
+        private Supplier<PartialModel> engineGaugeModel;
+        private Supplier<PartialModel> engineDialGaugeModel;
 
         private boolean fluidVessel;
 
         private @Nullable BlockEntry<? extends FluidVesselBlock> existingFluidVessel;
 
-        public Options fluidVessel(Supplier<CTSpriteShiftEntry> tankSideCtSprite, Supplier<CTSpriteShiftEntry> tankTopCtSprite, Supplier<CTSpriteShiftEntry> tankInnerCtSprite) {
+        public Options fluidVessel(Supplier<CTSpriteShiftEntry> tankSideCtSprite, Supplier<CTSpriteShiftEntry> tankTopCtSprite, Supplier<CTSpriteShiftEntry> tankInnerCtSprite, Supplier<PartialModel> gauge, Supplier<PartialModel> gaugeDial) {
             this.tankSideCtSprite = tankSideCtSprite;
             this.tankTopCtSprite = tankTopCtSprite;
             this.tankInnerCtSprite = tankInnerCtSprite;
+            this.engineGaugeModel = gauge;
+            this.engineDialGaugeModel = gaugeDial;
             this.fluidVessel = true;
             return this;
         }
 
-        public Options FluidBlocks(Supplier<CTSpriteShiftEntry> tankSideCtSprite, Supplier<CTSpriteShiftEntry> tankTopCtSprite, Supplier<CTSpriteShiftEntry> tankInnerCtSprite) {
-            return fluidVessel(tankSideCtSprite, tankTopCtSprite, tankInnerCtSprite);
+        public Options FluidBlocks(Supplier<CTSpriteShiftEntry> tankSideCtSprite, Supplier<CTSpriteShiftEntry> tankTopCtSprite, Supplier<CTSpriteShiftEntry> tankInnerCtSprite, Supplier<PartialModel> gauge,Supplier<PartialModel> gaugeDial) {
+            return fluidVessel(tankSideCtSprite, tankTopCtSprite, tankInnerCtSprite, gauge, gaugeDial);
         }
 
 

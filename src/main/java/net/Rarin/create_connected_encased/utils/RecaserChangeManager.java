@@ -80,7 +80,7 @@ public class RecaserChangeManager {
             if (player.isShiftKeyDown() && newFSet.getFluidVessel() != null && oldFSet.getFluidVessel() != null && state.is(oldFSet.getFluidVessel()))
                 tankResult = changeWholeTank(level, pos, newFSet.getFluidVessel(), player, ammo);
             else
-                changer.replace(level, pos, oldFSet, newFSet, CFluidSet::getFluidVessel);
+                changer.replace(level, pos, oldFSet, newFSet, CFluidSet::getFluidVessel, AXIS);
         }
 
         InteractionResult placementResult = tankResult != null ? tankResult : changer.getPlacementResult();

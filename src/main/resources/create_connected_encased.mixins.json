@@ -9,6 +9,7 @@
     "ChainCogWheelBlockMixin",
     "CreateCasingCommandMixin",
     "FluidVesselItemMixin",
+    "FluidVesselRendererMixin",
     "OverstressClutchBlockEntityMixin",
     "RecaserItemMixin",
     "RotationPropagatorMixin",
